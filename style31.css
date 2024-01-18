@@ -1,0 +1,29 @@
+#box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(209, 98, 126);
+    height:400px;
+    width:380px;
+    color: purple;
+    /* transition-property: background-color;
+    transition-duration: 1s; */
+    /* transition-timing-function: ease-in-out; */
+    /* transition-delay: 2s; */
+    /* transition short hand property in one line*/
+
+    /* transition: background-color 1s ease-in-out .3s; */
+ transition: background-color 1s ease-in-out .3s;
+
+}
+body{
+    background-color: royalblue;
+}
+
+#box:hover{
+    background-color: aqua;
+    height:600px;
+    width:500px;
+    border-radius: 100px;
+    font-size: 25px;
+}

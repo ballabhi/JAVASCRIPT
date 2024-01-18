@@ -1,0 +1,26 @@
+h1{
+     background-color: crimson;
+     color: beige;
+     font-weight: bold;
+     text-align: center;
+}
+
+/*if p is contained by any liwhich is contained by div*/
+/* div p li {
+    color: rgb(0, 5, 5);
+    background-color: rgb(190, 166, 166);
+    font-weight: bold;
+} */
+
+/* if p is right inside div this css will be applied */
+/*  div > p{
+    color:coral;
+    background-color: cornflowerblue;
+    font-weight: bold; // 
+} */
+/* if p is right after the div that is the next siblingof the div*/
+
+div + p{
+    color:beige;
+    background-color: rgb(127, 96, 212);
+}

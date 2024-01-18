@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+</head> 
+<body> 
+    <h2> this is html forms tutorial </h2> 
+    <!--backend.php me mere form ko submit kardo--> 
+    <form action="backend.php"> 
+        <label for=" name "> </label> 
+ 
+        <div> 
+       Name: <input type="text" > 
+       </div> 
+       <br> 
+       <label for=" role "> </label> 
+       <div> 
+        Role: <input type="text" > 
+       </div> 
+       <br> 
+       <label for="email"> </label> 
+       <div> 
+        email: <input type="text" > 
+       </div> 
+    <br> 
+   
+    <div> 
+        Date: <input type="date" name="mydate" > 
+    </div> 
+    <br> 
+    <div> 
+        bonus : <input type="number" name="mybonus" > 
+    </div> 
+ 
+    are you eligible ? <input type="checkbox" name=" my eliibilty" checked> 
+</div>      
+<br> 
+<div> 
+ 
+gender: Male <input type="radio" name="my gender" > Female <input type="radio" name="my gender"> 
+other <input type="radio" name="my gender"> 
+ 
+</div>    
+<br> 
+ 
+<br>    
+<div> 
+   write about yourself:<br> <textarea name="mytext" id="" cols="30" rows="10"></textarea> 
+</div> 
+<br> 
+<!-- id ek ander vohi likhege o for ke ander likhege --> 
+<div> 
+    <label for="car"> car </label> 
+    <select name="my car" id="car">  
+        <!-- select tag ke ander option tag bnate hi--> 
+    <option value="ind" > Indica </option> 
+    <option value="swf" > swift </option> 
+    </select> 
+ </div> 
+<br> 
+<div> 
+    <input type="submit" value=" submit now"> 
+<input type="reset" value="reset now"> 
+</div> 
+    </form> 
+</body>

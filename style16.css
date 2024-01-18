@@ -1,0 +1,56 @@
+  * {
+
+      box-sizing: border-box;
+  }
+
+  h1 {
+     margin: 30px;
+      text-align: center;
+  }
+
+  .container {
+      width: 900px;
+      border: 3px solid rgb(118, 37, 118);
+      background-color: rgb(190, 116, 212);
+      margin: 33px auto;
+      /* kisi element ko centre lane ke liye*/
+
+  }
+
+  body {
+      font-family: 'ubuntu', sans-serif;
+      background-color: rgb(236, 163, 178);
+  }
+
+  .item {
+      border: 3px solid grey;
+      margin: 12px 3.5px;
+      /* for giving outer space*/
+      padding: 12px 3px;
+      background: rgb(241, 187, 218);
+  }
+
+  #fruit {
+      float: left;
+      width: 48%;
+  }
+
+  #computer {
+      float: right;
+      width: 48%;
+  }
+
+  #stationary {
+      clear: both;
+      /*to avoid overlapping 
+/*float: left;*/
+      width: 100%;
+  }
+
+  p,
+  h3 {
+      text-align: center;
+      text-align: right;
+      text-align: left;
+      text-align: justify;
+  }

@@ -1,0 +1,35 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* padding ander se hti he element ke margin bahar se hoti he*/
+body{
+    background-color: rgb(222, 188, 224);
+}
+.container{
+    background-color: rgb(188, 188, 192);
+    border: 3px solid rgb(64,6,119);
+   /* we can set margin / padding for top bottom left right like this 
+      padding: 9px ;
+     padding-top: 35px;
+     padding-bottom: 35px;
+     padding-left: 34px
+     padding-right: 79px */
+
+     margin-top: 3px;
+     margin-bottom:5px ;
+     margin-left: 34px ;
+     margin-right: 5px;
+     /* padding =top right bottom left 
+     padding:23px 56px 36px 78px;
+     /* padding /margin =top bottom left right
+      /* padding: y(top/bottom) x(left/right);*/
+      padding: 34px 19px;
+      margin: 14px 19px; 
+border-radius: 23px;
+width: 530px; 
+  box-sizing: border-box;  
+} 

@@ -1,0 +1,105 @@
+
+body{
+    color:beige;
+    margin:0px;
+    padding:0px;
+    background: url(./file.jpg);
+    background-size: cover;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.left{
+    display: inline-block;
+position: absolute;
+left:34px;
+    top:22px; 
+
+}
+.left img{
+    width: 95px;
+
+}
+.left div{
+    font-size: 17px;
+    line-height: 17px;
+    text-align: center;
+}
+.mid{
+    width: 50%;
+    margin: 29px  auto;
+
+display:block;
+border-radius: 6px;
+
+}
+.right{
+    position: absolute;
+    right:34px;
+    top: 33px;
+    display: inline-block;
+border: 2px solid rgb(23, 22, 22);
+
+}
+
+.navbar{
+    display: inline-block;
+}
+.navbar li {
+   display : inline-block; 
+   font-size: 21px;
+                                          /* ek line me ajati he list*/
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover, .navbar li a.active {
+    text-decoration: underline;
+    color: rgb(78, 70, 70);
+}
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color:white;
+    padding: 4px 14px;   
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor:pointer;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.btn:hover{
+    background-color: rgb(52, 51, 51);
+}
+
+.container{
+        border: 2px solid white;
+        margin: 120px 66px;
+        padding: 13px 44px;
+        width: 48%;
+        border-radius: 15px;
+
+}
+.form-group input{
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+    display: block;
+    width: 382px;
+    padding: 0px;
+    border: 2px solid black;
+    margin: 8px auto;
+    font-size: 18px;
+    border-radius: 8px;
+}
+.container{
+    text-align: center;
+}
+.container button {
+    border: 2px solid grey;
+    background-color: black;
+    color: beige;
+    display: block;
+    width:381px;
+    margin:20px auto;
+}
